@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.app{
+    display: flex;
+    max-width: 1400px;
+    height: 100vh;
+    /* justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.mid_feed_section{
+    flex: 0.5;
+    border-right: 1px solid rgb(163, 163, 163);
+    overflow-y: scroll;
+}
+.mid_feed_section::-webkit-scrollbar{
+    display: none;
+}
+.sidebar_section{
+     flex: 0.3;
+     padding-top: 10px;
+    /* padding: 20px; */
+    border-right: 1px solid rgb(163, 163, 163);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.widget_section{
+    flex: 0.3;
+    margin: 5px 15px 0 20px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media all and (max-width: 1300px) {
+    .app{
+        margin: 0 auto;
+        max-width: 1100px;
+    }
+    .mid_feed_section{
+        flex: 0.7;
+    }
+    .sidebar_section{
+        flex: 0.2
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media all and (max-width: 1200px) {
+    .widget_section{
+        display: none;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+@media all and (max-width: 1050px) {
+    .app{
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+    .mid_feed_section{
+        flex: 0.7;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media all and (max-width: 700px) {
+    .mid_feed_section{
+        flex: 1;
+    }
+    .sidebar_section{
+        display: none;
+    }
 }

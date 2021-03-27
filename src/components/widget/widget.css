@@ -1,0 +1,47 @@
+
+.search{
+    display: flex;
+    height: 20px;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+.search > form{
+    display: flex;
+    flex: 1;
+}
+
+.search_input{
+    outline: none;
+    flex: 1;
+    border: 0;
+    padding: 10px;
+}
+
+/* whats happening header */
+.tweet_whats_happening{
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    
+}
+.tweet_whats_happening_header{
+    margin: 0 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+.tweet_whats_happening_header > h2{
+    margin: 0;
+}
+
+/* show more  */
+.wh_data_more {
+    padding: 15px;
+}
+
+.wh_data_more > a{
+    text-decoration: none;
+}
+

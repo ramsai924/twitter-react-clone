@@ -1,0 +1,110 @@
+.profile_top_header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    background-color: white;
+    z-index: 100;
+}
+.profile_top_header > .atag_MuiSvgIcon-root{
+    margin: 15px 15px 15px 20px;
+}
+.header_display_user_name{
+    padding: 5px;
+    margin: 5px 0;
+}
+.header_display_user_name > *{
+    margin: 0px;
+}
+.header_display_user_name  > p{
+    font-size: 13px;
+}
+
+.cover_pic_section{
+    position: relative;
+    width: 100%;
+    background-color: blue;
+    height: 210px;
+}
+
+.cover_pic_section > img{
+    width: 100%;
+    height: inherit;
+    object-fit:cover;
+}
+
+
+.profile_data{
+    width: 100%;
+}
+
+.avatar_and_tweet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar_and_tweet > .profile_avatar{
+    margin: 15px;
+}
+.avatar_and_tweet > .profile_tweet_btn{
+    margin-right: 15px;
+}
+
+.profile_tweet_btn{
+    padding: 10px 20px;
+    background-color: inherit;
+    color: #1DA1F2;
+    font-weight: 800;
+    outline: 0;
+    border: 2px solid #1DA1F2;
+    border-radius: 35px;
+    margin-top: 10px;
+    height: 45px;
+}
+
+.avatar_and_tweet > .profile_avatar{
+    height: 150px;
+    width: 150px;
+    margin-top: -80px;
+}
+
+.display_user_profile_name{
+    margin: 0 15px;
+}
+
+.display_user_profile_name > *{
+    margin: 0;
+}
+
+.display_user_data{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.user_data_item{
+    display: flex;
+    margin: 5px 10px;
+}
+
+.user_data_item > span{
+    align-self: center;
+}
+
+.followers_and_tweets{
+    display: flex;
+    margin-top: 10px;
+}
+.followers_and_tweets > p{
+    margin: 0 13px;
+    font-weight: 800;
+}
+.followtweets_content{
+    font-weight: 380;
+}
+
+.profile_feed_data{
+    margin-top: 20px;
+}
+
