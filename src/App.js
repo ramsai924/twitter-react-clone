@@ -4,7 +4,7 @@ import './App.css';
 import Feed from './components/Feed/Feed';
 import Profile from './components/Feed/profile/Profile'
 import Sidebar from './components/sidebar/Sidebar';
-import Widget from './components/widget/Widget';
+import Widget from './components/rightsidebar/Widget';
 import MobileNav from './components/sidebar/MobileNav/MobileNav'
 
 // function PrevRefs(val){
